@@ -1,0 +1,70 @@
+.header {
+  // max-width: 1920px;
+  background-image: url(../images/Header.png);
+    // background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 850px;
+
+    @media screen and (min-width: 480px) {
+      max-width: 100%;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 768px) {
+    max-width: 100%;
+     }
+
+    @media screen and (min-width: 1200px) {
+          width: 100%;
+           max-width: 1920px;
+            min-height: 850px;
+         }
+
+    @media screen and (min-width: 1900px) {
+      max-width: 1920px;
+    }
+  }
+  
+  .header__container {
+    // width: 100%;
+    // max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-size: contain;
+    // background-size: cover;
+   
+  }
+
+    .header__title {
+      margin-top: 42px;
+      font-size: 28px;
+      font-family: "Fredoka One";
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      // text-shadow: 0 10 0 rgba(17, 0, 16, 0.4);
+      text-shadow: 0 0 10px #4c2781, 0 0 20px #4c2284, 0 0 30px #5b2e8d, 0 0 40px #cdabe082;
+      
+
+      @media screen and (min-width: 768px) {
+        margin-top: 50px;
+        font-size: 35px;
+  
+      @media screen and (min-width: 1200px) {
+        margin-top: 45px;
+        font-size: 60px;
+        font-family: "Fredoka One";
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        // text-shadow: 0 10 0 rgba(17, 0, 16, 0.4);
+      text-shadow: 0 0 10px #4c2781, 0 0 20px #4c2284, 0 0 30px #5b2e8d, 0 0 40px #cdabe082;      }
+    }
+  }
