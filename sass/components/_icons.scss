@@ -8,21 +8,21 @@
 }
 
  .icon__footer-age {
-   width: 55px;
-   height: 55px;
-   margin-right: 20px;
+  //  width: 55px;
+  //  height: 55px;
+  //  margin-right: 20px;
    padding: 8px 5px;
 
    @media screen and(min-width:768px) {
-     width: 55px;
-     height: 55px;
+     width: 35px;
+     height: 35px;
      margin-right: 20px;
      padding: 0px;
    }
 
    @media screen and(min-width:1200px) {
-     width: 55px;
-     height: 55px;
+     width: 35px;
+     height: 35px;
      margin-right: 20px;
      padding: 0px;
    }
